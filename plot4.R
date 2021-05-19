@@ -28,7 +28,6 @@ with(dt, plot(datetime,
               ylab = "Voltage"))
 
 # 2,1
-
 with(dt, plot(datetime, 
               Sub_metering_1,
               type="l",
@@ -42,9 +41,6 @@ legend("topright",lty=c(1,1,1), lwd=c(2,2,2),
        col=c("black","red", "blue"),
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
-legend("topright",lty=c(1,1,1), lwd=c(2,2,2),
-       col=c("black","red", "blue"),
-       legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 # 2,2
 with(dt, plot(datetime, 
